@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #E397EF;
+    color: black;
+    display: flex;
+    font-weight: bolder;
+}
+.hero .container{
+    width: 100%;
+    max-width: 600px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;  
+    background-color: #9C4C79;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.hero .container .random{
+    background-color: #B16CAE;
+    padding: 15px;
+    min-width: 100%;
+    text-align: center;
+    color: burlywood;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+}
+.hero .numContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    min-width: 100%;
+}
+
+.hero .numContainer div{
+    width: 100%;
+    max-width:37.5% ;
+}
+.hero .numContainer div p{
+   color:#FAF0D7
+}
+.hero .numContainer div input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: aliceblue;
+    color: cadetblue;
+    font-weight: bold;
+}
+.hero .container button {
+    align-items: center;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #E397EF;
+    color: cadetblue;
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+}
+.hero .container button:hover{
+    background-color: #E397EF;
+    color: #FAF0D7;
+}
+
